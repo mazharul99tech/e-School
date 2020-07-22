@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+}
+p{
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* .navigation{
+    background-color: #F0FFF0;
+} */
+.navigation .container{
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navigation img{
+    width: 198px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    padding-right: 30px;
+    color: black;
+}
+.button-highlight{
+    background-color: #21B573;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #21B573;
+    transition: all linear 0.2s;
+}
+.button-highlight:hover{
+    color: black;
+    background-color: white;
+}
+.banner-part{
+    background-color: #F0FFF0;
+    padding-top: 100px;
+    height: 570px;
+}
+.banner-part p{
+    color: #6C6B6B;
+    padding: 15px 0;
+}
+.banner-part img{
+    width: 90%;
+}
+.banner-part .blue-bg{
+    color: #21B573;
+}
+.banner-part .red-highlight{
+    color: #FD511A;
+}
+.categories{
+    padding: 40px 80px;
+}
+.categories img{
+    width: 20%;
+    padding-bottom: 25px;
+}
+.categories .cat-item{
+    padding-top: 20%;
+    width: 270px;
+    text-align: center;
+    height: 270px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+
+.text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.categories .cat-item:hover, .categories .active-bg-white{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.course-content{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.course-section .card .card-text{
+    padding-bottom: 15px;
+}
+ .card-img-top{
+    padding: 15px 15px;
+}
+.course-section .card-item {
+    padding-top: 20px;
+}
+.course-section .card-item img{
+    width: 30px;
+}
+.course-section .card-item p{
+    padding-top: 15px;
+    padding-left: 6px;
+}
+#testimonial .test-area img{
+    width: 150px;
+}
+#testimonial .test-area .text-blog{
+    padding-left: 60px;
+}
+#testimonial .test-area .text-item{
+    padding: 20px 120px 0;
+}
+footer{
+    margin-top: 80px;
+   padding-top: 60px;
+   padding-bottom: 20px;
+    background-color: #282531;
+}
+footer a,footer a:hover,footer p,footer h5{
+    color: white;
+}
+footer p{
+    font-size: 16px;
+    font-weight: normal;
+}
+footer .footer-text{
+    padding-top: 50px;
+}
+
+
+ 
