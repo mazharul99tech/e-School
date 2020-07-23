@@ -99,6 +99,10 @@ p{
     padding-top: 40px;
     padding-bottom: 80px;
 }
+.course-content .col-md-4{
+    padding-right: 0;
+    padding-left: 0;
+}
 .card{
     border: none;
     border-radius: 10px;
