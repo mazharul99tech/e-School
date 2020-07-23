@@ -56,7 +56,7 @@ h5{
     font-size: 11px;
 }
 #testimonial .test-area img{
-    width: 400px;
+    width: 100px;
 }
 .course-section .card-item img{
     width: 20px;
@@ -108,7 +108,7 @@ footer p{
      margin-top: 25px;
  }
  #testimonial .test-area img{
-     width: 415px;
+     width: 100px;
  }
  #testimonial .test-area .text-blog{
      padding-left: 24px;
@@ -118,4 +118,44 @@ footer p{
  }
 
 
+}
+
+/* sm device ends */
+
+@media (max-width: 575px){
+    .navigation img{
+        width: 135px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 12px;
+    }
+    .button-highlight{
+        padding: 6px 15px;
+    }
+    .banner-part{
+        height: 526px;
+    }
+    .categories .cat-item{
+        width: 175px;
+        height: 200px;
+        padding-top: 12%;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    #testimonial .test-area .text-item{
+        padding: 0 10px;
+    }
+    #testimonial .test-area .text-blog{
+        padding-left: 15px;
+    }
+    #testimonial .test-area img{
+        width: 100px;
+        
+    }
 }
