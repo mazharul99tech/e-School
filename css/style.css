@@ -22,15 +22,24 @@ p{
     font-weight: 400;
 }
 
-/* .navigation{
+.navbar-light .navbar-toggler{
+    border: none;
+    border-color: white;
+}
+.navbar-toggler{
+    background-color: #21B573;
+    color: white;
+}
+
+.navigation{
     background-color: #F0FFF0;
-} */
-.navigation .container{
+}
+/* .navigation .container{
     position: absolute;
     content: "";
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 .navigation img{
     width: 198px;
 }
